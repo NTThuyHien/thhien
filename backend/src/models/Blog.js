@@ -31,5 +31,5 @@ const BlogSchema = new mongoose.Schema({
 // Export model Blog để sử dụng ở các file khác
 // mongoose.model() nhận tham số đầu tiên là tên model ("Blog")
 // MongoDB sẽ tạo collection tên "blogs" (chữ thường, số nhiều)
-// Tham số thứ hai là Schema đã định nghĩa ở trênn.
+// Tham số thứ hai là Schema đã định nghĩa ở trênnnn.
 module.exports = mongoose.model("Blog", BlogSchema);

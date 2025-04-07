@@ -34,5 +34,5 @@ router.get("/", function(req, res) {
     res.render("index.ejs");
 });
 
-// Export router để có thể sử dụng ở file khác (thường là file app.js hoặc server.js)
+// Export router để có thể sử dụng ở file khác (thường là file app.js hoặc server.js).
 module.exports = router;
