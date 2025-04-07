@@ -33,6 +33,11 @@ router.get("/", function(req, res) {
     // Render file view 'index.ejs' và gửi về client
     res.render("index.ejs");
 });
+<<<<<<< HEAD
 
 // Export router để có thể sử dụng ở file khác (thường là file app.js hoặc server.js).
 module.exports = router;
+=======
+module.exports = router;
+//commit hienne hihi
+>>>>>>> 170588dba099fc50e6e2d62eb2c5df0b17ab9ee1
