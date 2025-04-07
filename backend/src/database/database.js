@@ -1,6 +1,7 @@
 //D:\DaiHocHutechKhoa2021\41.NgoNguPhatTrienMoi\website_bandienthoai_nodejs_javascript_mongodb\backend\src\database\database.js
 const config = require("./../../config/setting.json");
-// ket noi den database mongodb
+// ket noi den database mongodbb
+
 class DatabaseConnection {
     static getMongoClient() {
         const user = config.mongodb.username; 
