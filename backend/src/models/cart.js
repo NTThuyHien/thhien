@@ -26,5 +26,5 @@ const CartSchema = new mongoose.Schema({
 // Export model Cart để sử dụng ở các file khác
 // mongoose.model() nhận tham số đầu tiên là tên model ("Cart")
 // MongoDB sẽ tạo collection tên "carts" (chữ thường, số nhiều)
-// Tham số thứ hai là Schema đã định nghĩa ở trênn
+// Tham số thứ hai là Schema đã định nghĩa ở trênnn
 module.exports = mongoose.model("Cart", CartSchema);
