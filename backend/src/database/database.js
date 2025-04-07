@@ -1,6 +1,6 @@
 //D:\DaiHocHutechKhoa2021\41.NgoNguPhatTrienMoi\website_bandienthoai_nodejs_javascript_mongodb\backend\src\database\database.js
 const config = require("./../../config/setting.json");
-// ket noi den database mongodbbbbb 
+// ket noi den database mongo db 
 
 class DatabaseConnection {
     static getMongoClient() {
